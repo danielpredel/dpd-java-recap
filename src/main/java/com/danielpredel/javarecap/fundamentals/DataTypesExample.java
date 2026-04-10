@@ -2,7 +2,7 @@ package com.danielpredel.javarecap.fundamentals;
 
 public class DataTypesExample {
 
-    //  Demonstrates Java primitive and reference data types to reinforce type system fundamentals used throughout the language.
+    //  Shows the basic primitive and object data types available in Java.
 
     public void run() {
         System.out.println("=== Data Types ===");
