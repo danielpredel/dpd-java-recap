@@ -3,7 +3,7 @@ package com.danielpredel.javarecap.fundamentals;
 public class TypeInference {
 
     // Shows how 'var' can be used for local type inference in modern Java.
-    
+
     public void run() {
         System.out.println("\n=== Type Inference ===");
         exampleTypeInference();
