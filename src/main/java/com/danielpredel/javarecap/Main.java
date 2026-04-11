@@ -1,5 +1,6 @@
 package com.danielpredel.javarecap;
 
+import com.danielpredel.javarecap.collections.ListExample;
 import com.danielpredel.javarecap.fundamentals.ControlFlowExample;
 import com.danielpredel.javarecap.fundamentals.DataTypesExample;
 import com.danielpredel.javarecap.fundamentals.LoopsExample;
@@ -19,6 +20,9 @@ public class Main {
         //  OOP
         new OopExample().run();
         new RecordExample().run();
+
+        //  Collections
+        new ListExample().run();
     }
 
 }
