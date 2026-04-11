@@ -8,7 +8,7 @@ public class ListExample {
     // Shows how to use lists and basic operations in Java.
 
     public void run() {
-        System.out.println("\n=== List Example ===");
+        System.out.println("\n=== List ===");
         List<String> names = new ArrayList<>();
         names.add("Daniel");
         names.add("Tom");
