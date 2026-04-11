@@ -5,6 +5,7 @@ import com.danielpredel.javarecap.fundamentals.DataTypesExample;
 import com.danielpredel.javarecap.fundamentals.LoopsExample;
 import com.danielpredel.javarecap.fundamentals.TypeInference;
 import com.danielpredel.javarecap.oop.OopExample;
+import com.danielpredel.javarecap.oop.RecordExample;
 
 public class Main {
     public static void main(String[] args) {
@@ -17,6 +18,7 @@ public class Main {
 
         //  OOP
         new OopExample().run();
+        new RecordExample().run();
     }
 
 }
