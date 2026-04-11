@@ -1,17 +1,20 @@
 package com.danielpredel.javarecap.oop;
 
-public class User {
+public class User extends Person {
 
     // Basic model class used to demonstrate object creation and encapsulation.
 
     private Long id;
-    private String name;
     private String email;
 
     public User(Long id, String name, String email) {
+        super(name);
         this.id = id;
-        this.name = name;
         this.email = email;
+    }
+
+    public void showRole() {
+        System.out.println("I am a simple user");
     }
 
     public Long getId() {

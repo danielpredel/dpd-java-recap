@@ -11,5 +11,10 @@ public class OopExample {
         service.createUser("Jerry", "jerry@mail.com");
         List<User> users = service.getAllUsers();
         ((List<?>) users).forEach(System.out::println);
+        User user = service.getUserById(2L);
+        if (user != null) {
+            user.introduce();
+            user.showRole();
+        }
     }
 }
