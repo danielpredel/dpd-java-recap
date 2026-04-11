@@ -3,6 +3,7 @@ package com.danielpredel.javarecap;
 import com.danielpredel.javarecap.collections.ListExample;
 import com.danielpredel.javarecap.collections.MapExample;
 import com.danielpredel.javarecap.collections.SetExample;
+import com.danielpredel.javarecap.collections.SortingExample;
 import com.danielpredel.javarecap.fundamentals.ControlFlowExample;
 import com.danielpredel.javarecap.fundamentals.DataTypesExample;
 import com.danielpredel.javarecap.fundamentals.LoopsExample;
@@ -27,6 +28,7 @@ public class Main {
         new ListExample().run();
         new SetExample().run();
         new MapExample().run();
+        new SortingExample().run();
     }
 
 }
