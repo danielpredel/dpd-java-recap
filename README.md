@@ -4,10 +4,27 @@
 Prepare for Spring Boot by revisiting core Java concepts.
 
 ## Structure
-- fundamentals: syntax, control flow
-- oop: classes, interfaces, design
-- collections: data structures
-- functional: streams, lambdas
+- [Fundamentals](src/main/java/com/danielpredel/javarecap/fundamentals)
+  - [Data Types](src/main/java/com/danielpredel/javarecap/fundamentals/DataTypesExample.java)
+  - [Control Flow](src/main/java/com/danielpredel/javarecap/fundamentals/ControlFlowExample.java)
+  - [Loops](src/main/java/com/danielpredel/javarecap/fundamentals/LoopsExample.java)
+  - [Type Inference](src/main/java/com/danielpredel/javarecap/fundamentals/TypeInference.java)
+- [OOP](src/main/java/com/danielpredel/javarecap/oop):
+  - [OOP (Demo)](src/main/java/com/danielpredel/javarecap/oop/OopExample.java)
+  - [Person (Model)](src/main/java/com/danielpredel/javarecap/oop/Person.java)
+  - [User (Model)](src/main/java/com/danielpredel/javarecap/oop/User.java)
+  - [UserService (Interface)](src/main/java/com/danielpredel/javarecap/oop/UserService.java)
+  - [UserServiceImpl (Implementation)](src/main/java/com/danielpredel/javarecap/oop/UserServiceImp.java)
+  - [Records](src/main/java/com/danielpredel/javarecap/oop/RecordExample.java)
+- [Collections](src/main/java/com/danielpredel/javarecap/collections)
+  - [List](src/main/java/com/danielpredel/javarecap/collections/ListExample.java)
+  - [Map](src/main/java/com/danielpredel/javarecap/collections/MapExample.java)
+  - [Set](src/main/java/com/danielpredel/javarecap/collections/SetExample.java)
+  - [Sorting](src/main/java/com/danielpredel/javarecap/collections/SortingExample.java)
+- [Functional](src/main/java/com/danielpredel/javarecap/functional)
+  - [Lambda](src/main/java/com/danielpredel/javarecap/functional/LambdaExample.java)
+  - [Streams](src/main/java/com/danielpredel/javarecap/functional/StreamsExample.java)
+  - [Optional](src/main/java/com/danielpredel/javarecap/functional/OptionalExample.java)
 - errorhandling: exceptions
 - miniprojects: applied logic
 
