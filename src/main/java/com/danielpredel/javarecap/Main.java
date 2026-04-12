@@ -5,6 +5,7 @@ import com.danielpredel.javarecap.collections.MapExample;
 import com.danielpredel.javarecap.collections.SetExample;
 import com.danielpredel.javarecap.collections.SortingExample;
 import com.danielpredel.javarecap.functional.LambdaExample;
+import com.danielpredel.javarecap.functional.StreamsExample;
 import com.danielpredel.javarecap.fundamentals.ControlFlowExample;
 import com.danielpredel.javarecap.fundamentals.DataTypesExample;
 import com.danielpredel.javarecap.fundamentals.LoopsExample;
@@ -33,6 +34,7 @@ public class Main {
 
         //  Functional
         new LambdaExample().run();
+        new StreamsExample().run();
     }
 
 }
