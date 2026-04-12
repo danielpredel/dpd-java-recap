@@ -1,6 +1,7 @@
 package com.danielpredel.javarecap.oop;
 
 import java.util.List;
+import java.util.Optional;
 
 public class OopExample {
     public void run() {
@@ -11,10 +12,8 @@ public class OopExample {
         service.createUser("Jerry", "jerry@mail.com");
         List<User> users = service.getAllUsers();
         ((List<?>) users).forEach(System.out::println);
-        User user = service.getUserById(2L);
-        if (user != null) {
-            user.introduce();
-            user.showRole();
-        }
+        Optional<User> userOpt = service.getUserById(2L);
+        userOpt.ifPresent(Person::introduce);
+        userOpt.ifPresent(User::showRole);
     }
 }

@@ -2,6 +2,7 @@ package com.danielpredel.javarecap.oop;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Optional;
 
 public class UserServiceImp implements UserService{
 
@@ -18,11 +19,10 @@ public class UserServiceImp implements UserService{
     }
 
     @Override
-    public User getUserById(Long id) {
+    public Optional<User> getUserById(Long id) {
         return users.stream()
                 .filter(u -> u.getId().equals(id))
-                .findFirst()
-                .orElse(null);
+                .findFirst();
     }
 
     @Override
