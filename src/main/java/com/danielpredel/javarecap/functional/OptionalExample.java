@@ -2,7 +2,7 @@ package com.danielpredel.javarecap.functional;
 
 import com.danielpredel.javarecap.oop.User;
 import com.danielpredel.javarecap.oop.UserService;
-import com.danielpredel.javarecap.oop.UserServiceImp;
+import com.danielpredel.javarecap.oop.UserServiceImpl;
 
 import java.util.Optional;
 
@@ -13,7 +13,7 @@ public class OptionalExample {
     public void run() {
         System.out.println("\n=== Optional ===");
 
-        UserService service = new UserServiceImp();
+        UserService service = new UserServiceImpl();
         service.createUser("Daniel", "daniel@mail.com");
         service.createUser("Tom", "tom@mail.com");
         service.createUser("Jerry", "jerry@mail.com");

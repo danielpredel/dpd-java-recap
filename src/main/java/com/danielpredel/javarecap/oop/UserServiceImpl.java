@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
-public class UserServiceImp implements UserService{
+public class UserServiceImpl implements UserService{
 
     // Concrete implementation of the UserService interface.
 
