@@ -25,7 +25,10 @@ Prepare for Spring Boot by revisiting core Java concepts.
   - [Lambda](src/main/java/com/danielpredel/javarecap/functional/LambdaExample.java)
   - [Streams](src/main/java/com/danielpredel/javarecap/functional/StreamsExample.java)
   - [Optional](src/main/java/com/danielpredel/javarecap/functional/OptionalExample.java)
-- errorhandling: exceptions
+- [Error Handling](src/main/java/com/danielpredel/javarecap/errorhandling)
+  - [Exceptions](src/main/java/com/danielpredel/javarecap/errorhandling/ExceptionExample.java)
+  - [Custom Exception](src/main/java/com/danielpredel/javarecap/errorhandling/CustomExceptionExample.java)
+  - [Custom Exception (Implementation)](src/main/java/com/danielpredel/javarecap/errorhandling/UserNotFoundException.java)
 - miniprojects: applied logic
 
 ## How to Run

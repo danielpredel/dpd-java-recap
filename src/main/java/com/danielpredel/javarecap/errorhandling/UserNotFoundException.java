@@ -1,0 +1,7 @@
+package com.danielpredel.javarecap.errorhandling;
+
+public class UserNotFoundException extends Exception{
+    public UserNotFoundException(String m) {
+        super(m);
+    }
+}
