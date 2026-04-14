@@ -13,6 +13,7 @@ import com.danielpredel.javarecap.fundamentals.ControlFlowExample;
 import com.danielpredel.javarecap.fundamentals.DataTypesExample;
 import com.danielpredel.javarecap.fundamentals.LoopsExample;
 import com.danielpredel.javarecap.fundamentals.TypeInference;
+import com.danielpredel.javarecap.miniprojects.usermanagement.app.UserManagement;
 import com.danielpredel.javarecap.oop.OopExample;
 import com.danielpredel.javarecap.oop.RecordExample;
 
@@ -44,6 +45,10 @@ public class Main {
         //  Error Handling
         new ExceptionExample().run();
         new CustomExceptionExample().run();
+
+        //  Mini Projects
+        //  User Management
+        new UserManagement().run();
     }
 
 }
