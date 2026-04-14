@@ -16,7 +16,6 @@ import com.danielpredel.javarecap.fundamentals.TypeInference;
 import com.danielpredel.javarecap.oop.OopExample;
 import com.danielpredel.javarecap.oop.RecordExample;
 
-import javax.swing.text.html.Option;
 
 public class Main {
     public static void main(String[] args) {

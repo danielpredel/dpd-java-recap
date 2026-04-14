@@ -2,7 +2,6 @@ package com.danielpredel.javarecap.collections;
 
 import java.util.Set;
 import java.util.HashSet;
-import java.util.concurrent.ExecutionException;
 
 public class SetExample {
 
