@@ -29,7 +29,8 @@ Prepare for Spring Boot by revisiting core Java concepts.
   - [Exceptions](src/main/java/com/danielpredel/javarecap/errorhandling/ExceptionExample.java)
   - [Custom Exception](src/main/java/com/danielpredel/javarecap/errorhandling/CustomExceptionExample.java)
   - [Custom Exception (Implementation)](src/main/java/com/danielpredel/javarecap/errorhandling/UserNotFoundException.java)
-- miniprojects: applied logic
+- [Mini Projects](src/main/java/com/danielpredel/javarecap/miniprojects):
+  - [User Management](src/main/java/com/danielpredel/javarecap/miniprojects/usermanagement/app/UserManagement.java)
 
 ## How to Run
 - Use Main.java as entry point
